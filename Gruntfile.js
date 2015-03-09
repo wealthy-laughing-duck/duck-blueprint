@@ -16,6 +16,7 @@ module.exports = function(grunt) {
         options: {
           port: 9001,
           hostname: 'localhost',
+          keepalive : true
         }
       }
     }
